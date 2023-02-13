@@ -1,14 +1,13 @@
-# Learning-Docker-Assignment
+### Docker Tutorial for printing the arguement, its length and reversing it during execution of docker image
 
-In your terminal First build a container image using : podman build . --tag dockerAssignment
+## Commands used
+- `podman build . -t dockerAssignment`
+- `podman run dockerAssignment  " I am a RedHatter"`
 
-them after the process ends run the image using : podman run dockerAssignment "I am a RedHatter"
+## Output
 
-Now after running this command you should see :
-
-# I am a RedHatter
-# Length = 16
-# Reversed = rettaHdeR a ma I
-
-
-#------------------------------------------
+```
+I am a RedHatter
+Length = 17
+Reversed = rettaHdeR a ma I
+```
